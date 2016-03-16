@@ -1,10 +1,14 @@
-# calc
+# calc-lang
 
-This is the first test runs of building a simple interpreter in C. 
+First test run of building a simple interpreter in C. This is by no means an exhaustive or complete calculator language implementation.
+
+Variables are held in a symbol table that only allow for a single upper or lower case character.
 
 ## Build
 
-`$ make`
+```sh
+$ make
+```
 
 ## Example Usage
 
