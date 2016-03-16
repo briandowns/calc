@@ -1,10 +1,14 @@
 %{
-void yyerror (char *s);
+
+
 #include <stdio.h>
 #include <stdlib.h>
+
+void yyerror (char *s);
 int symbols[52]; // primitive symbol table implementation. Holds variables [a-zA-Z]
 int symbolVal(char symbol);
 void updateSymbolVal(char symbol, int val);
+
 %}
 
 %union {int num; char id;}
