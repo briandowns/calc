@@ -13,6 +13,7 @@
 .                   {ECHO; yyerror("unexpected character");}
 
 %%
+
 int yywrap (void) {
     return 1;    
 }
